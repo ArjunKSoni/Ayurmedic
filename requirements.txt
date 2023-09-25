@@ -1,6 +1,5 @@
-scikit-learn==1.2.2
+scikit-learn
 joblib
-fastapi==0.99.1
+fastapi
 pydantic
-mangum==0.17.0
-uvicorn==0.22.0
+uvicorn
