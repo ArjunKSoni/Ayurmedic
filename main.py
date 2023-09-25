@@ -2,10 +2,10 @@ from fastapi import FastAPI
 import math
 from fastapi.responses import HTMLResponse
 # from enum import Enum
-from mangum import Mangum
+# from mangum import Mangum
 from pydantic import BaseModel
 app = FastAPI()
-handler=Mangum(app)
+# handler=Mangum(app)
 import data
 import model
 
