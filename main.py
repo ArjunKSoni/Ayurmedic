@@ -42,13 +42,13 @@ async def root(item: Ayurvedic):
     for i in range(len(k)):
         k[i]=math.floor(k[i])
     ans={
-        "Medicine Name":data.ayurvedic[k[0]],
-        "Main Ingredients": data.ingredients[k[1]],
-        "Commonly Used for Diseases": data.commonName[k[2]],
-        "Alternate Allopathic Drug Name": data.allopathicO[k[3]],
-        "Home Remedies": data.home_Remedies[k[4]],
+        "MedicineName":data.ayurvedic[k[0]],
+        "MainIngredients": data.ingredients[k[1]],
+        "CommonlyUsedforDiseases": data.commonName[k[2]],
+        "AlternateAllopathicDrugName": data.allopathicO[k[3]],
+        "HomeRemedies": data.home_Remedies[k[4]],
         "Dosage": data.dosage[k[5]],
-        "Diet Chart": data.diet_chart[k[6]],
-        "Yoga Names": data.yoga[k[7]],
+        "DietChart": data.diet_chart[k[6]],
+        "YogaNames": data.yoga[k[7]],
     }
     return ans
