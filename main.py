@@ -38,7 +38,7 @@ async def main():
 @app.post("/")
 async def root(item: Ayurvedic):
     input=data.symptoms[item.Symptoms]
-    k=model.model.predict([[11]])[0]
+    k=model.model.predict([[input]])[0]
     for i in range(len(k)):
         k[i]=math.floor(k[i])
     ans={
